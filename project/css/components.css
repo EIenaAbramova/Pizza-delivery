@@ -1,0 +1,53 @@
+
+.btn { 
+	background: #ff5441;
+	color: #fff;
+	cursor: pointer;
+
+	display: inline-block;
+	padding: 18px 20px;
+	width: 240px;
+	max-width: 100%;
+	border-radius: 28px;
+	border: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: .02em;
+	box-shadow: 0 0 38px 0 rgba(212, 66, 50, 0.8);
+	transition: background 0.2s;
+}
+
+.btn:hover{
+	background: #ec4b3b;
+}
+
+.btn:active{
+	opacity: 0.8;
+	transform: scale(.95);
+}
+
+
+.phone_item {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 22px;
+	padding: 8px 16px;
+	transition: all .2s;
+}
+
+.phone_item:hover{
+	color: #1f1f1f;
+	background: #fff;
+}
+
+.phone_item:active{
+	opacity: 0.8;
+}

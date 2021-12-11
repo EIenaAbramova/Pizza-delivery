@@ -2,6 +2,10 @@
 	padding: 110px 0;
 }
 
+.section_header {
+	margin-bottom: 90px;
+}
+
 .section_title {
 	font-size: 48px;
 	text-align: center;

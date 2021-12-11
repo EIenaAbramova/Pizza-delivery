@@ -42,11 +42,59 @@
 	font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
 	color: #c9c7c7;
+	border-right: 1px solid #c9c7c7;
+	transition: border .2s, background .2s, color .2s;
+}
+
+.catalog_nav_item:last-of-type .catalog_nav_btn {
+	border-right: 0;
 }
 
 .catalog_nav_btn.is_activ {
 	background: #1f1f1f;
 	color: #fff;
+	border-color: #1f1f1f;
+}
+
+.catalog_nav_btn:not(.is_activ):hover {
+	background: #ffa650;
+	color: #fff;
+	border-right-color: #ffa650;
+}
+
+
+@media(max-width: 767px) {
+	.catalog_nav {
+		width: 500px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.catalog_nav_wrapper {
+		flex-wrap: wrap;
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	.catalog_nav_item {
+		width: 50%;
+		flex-grow: 1;
+	}
+
+	.catalog_nav_btn {
+		min-width: 0;
+		width: 100%;
+		border-top: 1px solid #c9c7c7;
+	}
+
+	.catalog_nav_item:nth-of-type(1) .catalog_nav_btn,
+	.catalog_nav_item:nth-of-type(2) .catalog_nav_btn {
+		border-top: 0;
+	}
+
+	.catalog_nav_item:nth-of-type(even) .catalog_nav_btn {
+		border-right: 0;
+	}
 }
 
 @media(max-width: 576px) {

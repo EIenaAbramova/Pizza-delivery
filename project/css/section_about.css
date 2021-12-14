@@ -36,3 +36,31 @@
 	line-height: 1.67;
 	margin: 0;
 }
+
+
+@media(max-width: 1200px) {
+	.secction_about {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.section_about_content {
+		padding-left: 50px;
+	}
+}
+
+@media(max-width: 767px) {
+	.section_about_img {
+		width: 100%;
+	}
+
+	.section_about_container {
+		justify-content: center;
+	}
+
+	.section_about_content {
+		padding-left: 0;
+		width: 500px;
+		max-width: 100%;
+	}
+}

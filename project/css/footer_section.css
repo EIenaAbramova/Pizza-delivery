@@ -9,7 +9,7 @@
 .footer_contacts_container::before {
 	content: '';
 	position: absolute;
-	background: url(../img/footer-section/tomatos.jpg) no-repeat;
+	background: url(../project/img/footer-section/tomatos.jpg) no-repeat;
 	background-size: cover;
 	width: 672px;
 	height: 397px;
@@ -21,6 +21,8 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .contacts_start {
@@ -74,6 +76,10 @@
 	margin-right: 7px;
 }
 
+.social_item:last-of-type {
+	margin-bottom: 0;
+}
+
 .social_link {
 	display: inline-block;
 }
@@ -93,18 +99,84 @@
 	fill: #5181B8;
 }
 
-.social_icon_fb{
-	margin: 0 -10px;
-}
-
 .social_icon_fb:hover {
 	fill: #3F64A5;
 }
 
-.social_icon_inst{
-	margin: 0 -20px;
-}
-
 .social_icon_inst:hover {
 	fill: #C12B76;
+}
+
+
+@media(max-width: 1800px) {
+	.footer_contacts_container::before {
+		right: -250px;
+	}
+}
+
+@media(max-width: 1600px) {
+	.footer_contacts_container::before {
+		right: -150px;
+		bottom: -200px;
+	}
+}
+
+@media(max-width: 1400px) {
+	.footer_contacts_container::before {
+		right: -100px;
+	}
+}
+
+@media(max-width: 1300px) {
+	.footer_contacts_container::before {
+		right: -50px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.footer_contacts_container::before {
+		content: none;
+	}
+}
+
+@media(max-width: 992px) {
+	.contacts_map {
+		height: 350px;
+	}
+}
+
+@media(max-width: 767px) {
+	.contacts_start {
+		width: 100%;
+		order: 1;
+	}
+
+	.contacts_end {
+		width: 400px;
+		max-width: 100%;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+
+	.contacts_map {
+		margin: 0 -20px;
+		height: 300px;
+	}
+}
+
+@media(max-width: 576px) {
+	.contacts_title {
+		margin-bottom: 0 0 10px;
+	}
+
+	.social_icon {
+		fill: #ffa650;
+		width: 70px;
+		height: 70px;
+		transition: fill .2s;
+	}
+	.social_icon_inst{
+		margin: 0 -28px;
+	}
+
 }

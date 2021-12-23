@@ -6,7 +6,7 @@
 	margin-bottom: 90px;
 }
 
-.section_title {
+.page_title {
 	font-size: 48px;
 	text-align: center;
 	margin: 0 auto 40px;
@@ -14,7 +14,7 @@
 	font-weight: 900;
 }
 
-.section_title_accent {
+.page_title_accent {
 	color: #ffa650;
 }
 
@@ -109,7 +109,7 @@
 		padding: 50px 0;
 	}
 
-	.section_title {
+	.page_title {
 		font-size: 36px;
 	}
 	.section_header {

@@ -103,6 +103,10 @@
 	fill: #3F64A5;
 }
 
+.social_icon_inst{
+	margin: 0 0 0 -18px;
+}
+
 .social_icon_inst:hover {
 	fill: #C12B76;
 }

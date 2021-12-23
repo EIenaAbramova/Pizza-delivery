@@ -1,0 +1,9 @@
+.popup_link {
+	text-decoration: none;
+	color: inherit;
+	white-space: nowrap;
+}
+
+.popup_subtitle_error {
+	max-width: 360px;
+}

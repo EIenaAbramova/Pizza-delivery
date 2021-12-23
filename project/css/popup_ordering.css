@@ -1,0 +1,59 @@
+.popup_title {
+	margin-bottom: 20px;
+}
+
+.popup_subtitle {
+	margin: 0 auto 40px;
+	text-align: center;
+	font-size: 24px;
+	max-width: 360px;
+}
+
+.ordering {
+	max-width: 310px;
+	margin: 0 auto;
+}
+
+.ordering_img {
+	width: 186px;
+	display: block;
+	margin: 0 auto 10px;
+}
+
+.ordering_title {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 5px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.ordering_size {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 30px;
+	color: #a2a2a2;
+	text-align: center;
+	font-weight: 900;
+}
+
+.form_input {
+	display: block;
+	width: 100%;
+	padding: 20px 28px;
+	background: #f7f7f7;
+	border-radius: 32px;
+	margin-bottom: 8px;
+	border: 2px solid transparent;
+	outline: none;
+}
+
+.form_input:focus {
+	border-color: #ffa650;
+}
+
+.form_btn {
+	box-shadow: none;
+	width: 100%;
+	background: #ffa650;
+	padding: 22px 28px;
+	border-radius: 50px;
+}

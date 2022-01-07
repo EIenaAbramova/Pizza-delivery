@@ -100,6 +100,11 @@
 	margin-right: -15px;
 }
 
+.header_menu.is_active .header_menu_link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 
 @media(max-width: 1200px) {
 	.header_menu_link {
